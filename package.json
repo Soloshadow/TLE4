@@ -1,0 +1,25 @@
+{
+  "name": "tle4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs/js/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HLA-systeem/TLE4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HLA-systeem/TLE4/issues"
+  },
+  "homepage": "https://github.com/HLA-systeem/TLE4#readme",
+  "dependencies": {
+    "blink-diff": "^1.0.13"
+  }
+}
