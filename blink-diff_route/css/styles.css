@@ -2,7 +2,7 @@ body{
     background-color:#F4F2F4;
 }
 
-p,div,span{
+p,div,span, h1, h2, h3, h4{
     color: #404F61;
 }
 
@@ -14,28 +14,28 @@ p,div,span{
     margin: 0 auto;
     margin-top: 20%;
     background-color: rgba(74, 192, 243,0.2);
+    padding-top: 5%;
+    padding-bottom: 5%;
     /*background-color:#91867675;*/
 }
 
 .main-content #first{
     margin: 0 auto;
-    padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .main-content #second{
     margin: 0 auto;
-    padding-bottom: 5%;
 }
 
 
-.main-content button{
+button{
     margin-top: 5%;
     background-color:#91867675;
     border-color: #91867675;
 }
 
-.main-content button a{
+button a{
     color: #7E6371;
     font-weight: bold;
 }
@@ -48,4 +48,25 @@ p,div,span{
 
 #reScanText a{
     color: #7EA3B3;
+}
+
+textarea {
+    resize: none;
+}
+
+form{
+    margin-top: -5%;
+}
+
+#upScan{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#hoeGebruik{
+    margin-top:10%;
+    margin-bottom:-10%;
+}
+#hoeGebruik h3{
+    margin: 0 auto;
 }
