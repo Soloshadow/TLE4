@@ -10,12 +10,13 @@
 </head>
 <body>
     <div id="routerContainer" class="container-fluid">
+        <div class="alert row">Schade aan uw levering, contoleer nu?</div>
         <div id="hoeGebruik" class="row text-center">
             <h3><i>Hoe gebruik is ZSZ?</i></h3>
         </div>
         <div class="main-content text-center row">
-            <p>Maak een foto van het pakket, voorbeeld:</p>
-            <img src="https://farm3.static.flickr.com/2299/2367242455_4ae8fdaca4_b.jpg" alt="damaged side of package" style="width: 300px; height: 300px">
+            <p class="col-12">Maak een foto van het pakket, voorbeeld:</p>
+            <img class="offset-1" src="https://farm3.static.flickr.com/2299/2367242455_4ae8fdaca4_b.jpg" alt="damaged side of package" style="width: 300px; height: 300px">
             <select name="packages" id="packages">  
                 <option value="envelope">FedEx envelope</option>
                 <option value="pak">FedEx package</option>
@@ -26,7 +27,8 @@
             </select>
         </div>
         <div class="row">
-            <button id="upScan"class="btn"><a href="contact.html">Upload en Scan</a></button>
+            <button id="upScan"class="btn"><a href="submit.html">Upload en Scan</a></button>
+            <button id="upScan"class="btn"><a href="contact.html">Upload en Scan (geen schade)</a></button>
         </div>
     </div>
     
